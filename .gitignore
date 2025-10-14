@@ -1,0 +1,67 @@
+# Visual Studio 2022 specific ignores
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.pdb
+*.obj
+*.o
+*.ncb
+*.aps
+*.bsc
+*.sbr
+*.res
+*.pch
+*.ipch
+*.log
+*.bak
+*.ilk
+*.suo
+*.vshost.exe
+*.vshost.exe.config
+*.vshost.exe.manifest
+*.resharper
+*.dotSettings
+*.cache
+*.bin
+*.obj
+*.tlog
+
+# Python specific ignores
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual environment
+venv/
+.venv/
+env/
+.env/
+
+# IDE-specific files (e.g., for VS Code or other editors if used alongside VS)
+.vscode/
+.idea/
+
+# Editor backup files
+*~
+*.bak
+*.swp
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook files
+.ipynb_checkpoints/
