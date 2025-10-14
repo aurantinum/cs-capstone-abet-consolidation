@@ -1,0 +1,60 @@
+{
+  "filters": {
+    "assetType": "NLP_MHE",
+    "facets": [
+      {
+        "label": "Grade",
+        "id": "Grade",
+
+        "field": {
+          "name": "education_levels.grades",
+          "id": "education_levels.grades.guid"
+        },
+        "facet": {
+          "name": "data.descr",
+          "id": "data.guid"
+        },
+        "selectedFilters": [
+          {
+            "data": {
+              "descr": "Kindergarten",
+              "guid": "F1F9FA12-3B53-11E0-A421-F4B24952E9DF",
+              "code": "K",
+              "seq": 20
+            }
+          },
+          {
+            "data": {
+              "descr": "9th Grade",
+              "guid": "ABBAABBA-ACDC-ACDC-B042-495E9DFF4B22",
+              "code": "9",
+              "seq": 20,
+            }
+          },
+        ],
+      },
+      {
+        "id": "Subject",
+        "label": "Subject",
+        "field": {
+          "name": "disciplines.subjects",
+          "id": "disciplines.subjects.ids"
+        },
+        "facet": {
+          "name": "data.descr",
+          "id": "data.guid"
+        },
+        "selectedFilters": [
+          {
+            "data": {
+              "descr": "Mathematics",
+              "guid": "495E9DFF-3B53-11E0-B042-C4B222F1FB2F",
+              "code": "MATH"
+            },
+            "count": 2488
+          }
+        ]
+      }
+    ]
+  }
+}
