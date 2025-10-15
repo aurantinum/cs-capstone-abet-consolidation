@@ -3,6 +3,7 @@ import hashlib
 import hmac
 import base64
 import urllib.request
+from bs4 import BeautifulSoup
 
 partner_id = 'public'                      # ID provided by AB. 
 partner_key = '2jfaWErgt2+o48gsk302kd'     # Key provided by AB.
@@ -24,5 +25,9 @@ result = urllib.request.urlopen('https://canvas.asu.edu/courses/240102/assignmen
 out_file = open('output.txt', 'w')
 
 print (result, file=out_file)
+
+parsed_result = BeautifulSoup(result,'html')
+
+print(parsed_result.body.find('div'))
 
 out_file.close()
